@@ -16,10 +16,21 @@ html, body {
 }
 
 header {
-    background-color: black;
     padding: 32px;
     position: fixed;
     width: 100vw;
+    background-color: black;
+}
+
+.gowlogo {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.element1gow {
+    margin-left: 10%;
+    margin-top: 10px;
 }
 
 header nav ul {
@@ -40,25 +51,22 @@ header nav a:hover {
 
 .grupo {
     height: 100vh;
-    background-color: tomato;
 }
 
-#vermelho {
-    background-color: red;
+#historia {
+    background-image: url(./img/gowcenario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#azul {
+#personagens {
     background-color: blue;
 }
 
-#verde {
+#bastidores {
     background-color: green;
 }
 
-#amarelo {
+#compre {
     background-color: yellow;
-}
-
-#roxo {
-    background-color: purple;
 }
