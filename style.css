@@ -4,9 +4,61 @@
     box-sizing: border-box;
 }
 
-a{
+a { 
     text-decoration: none;
 }
 ul, ol, li{
     list-style: none;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    padding: 32px;
+    position: fixed;
+    width: 100vw;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    padding: 8px;
+    transition: 1s;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    background-color:  tomato;
+}
+
+.grupo {
+    height: 100vh;
+    background-color: tomato;
+}
+
+#vermelho {
+    background-color: red;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#verde {
+    background-color: green;
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#roxo {
+    background-color: purple;
 }
