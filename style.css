@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'GodOfWar';
+    src: url(./fonts/GODOFWAR.TTF) format('truetype');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,9 +11,18 @@
 
 a { 
     text-decoration: none;
+    font-family: 'GodOfWar', sans-serif;
 }
-ul, ol, li{
+
+ul, ol, li {
     list-style: none;
+}
+
+li {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 80px;
+    margin-bottom: 20px;
 }
 
 html, body {
@@ -16,21 +30,47 @@ html, body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 32px;
     position: fixed;
     width: 100vw;
-    background-color: black;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .gowlogo {
-    width: 250px;
+    width: 300px;
     height: auto;
-    margin-top: 20px;
+    margin-left: 80px;
 }
 
 .element1gow {
-    margin-left: 10%;
-    margin-top: 10px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    width: 550px;
+    height: auto;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #5092D2;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+.grupo {
+    height: 100vh;
 }
 
 header nav ul {
@@ -49,11 +89,7 @@ header nav a:hover {
     background-color:  tomato;
 }
 
-.grupo {
-    height: 100vh;
-}
-
-#historia {
+#inicio {
     background-image: url(./img/gowcenario.png);
     background-repeat: no-repeat;
     background-size: cover;
