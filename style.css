@@ -19,10 +19,9 @@ ul, ol, li {
 }
 
 li{
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
     font-size: 80px;
-    margin-bottom: 20px;
 }
 
 html, body {
@@ -41,27 +40,68 @@ header {
 
 .titulo-main-h1 {
     font-family: 'GodOfWar', sans-serif;
+    color: #5092D2;
+    font-size: 4.3vw;
+    margin-left: 10%;
+    padding-top: 25vh;
+}
+
+.titulo-main-h2 {
+    font-family: 'GodOfWar', sans-serif;
     color: white;
     font-size: 3vw;
+    margin-left: 10%;
+    padding-top: 1px;
+}
+
+.titulo-pg2-h1 {
+    font-family: 'GodOfWar', sans-serif;
+    color: #5092D2;
+    font-size: 4.3vw;
     margin-left: 10%;
     padding-top: 25vh;
 }
 
 .paragrafo-main {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200px;
     margin-left: 10%;
-    margin-top: 2vh;
+    margin-right: 55%;
+    margin-top: 7vh;
     font-size: 1vw;
     color: white;
 }
 
 .imgkratos {
-    width: 60vw; 
+    width: 75vw; 
     height: auto;
-    margin-left: 40%;
-    margin-top: -28vh;
-    position: relative;
+    margin-left: 35%;
+    margin-top: -44vh;
+    position: absolute;
+}
+
+.imgatreus {
+    width: 30vw; 
+    height: auto;
+    margin-left: 60%;
+    margin-top: -54.5vh;
+    position: absolute;
+}
+
+.imgthor {
+    width: 67vw; 
+    height: auto;
+    margin-left: 45%;
+    margin-top: -43.3vh;
+    position: absolute;
+}
+
+.imgodin {
+    width: 35vw; 
+    height: auto;
+    margin-left: 55%;
+    margin-top: -49vh;
+    position: absolute;
 }
 
 .logo-container {
@@ -109,20 +149,26 @@ header nav a {
     font-size: 0.8vw;
 }
 
-#inicio {
+#kratos {
     background-image: url(./img/gowcenario.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#personagens {
-    background-color: blue;
+#atreus {
+    background-image: url(./img/fundopg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#bastidores {
-    background-color: green;
+#thor {
+    background-image: url(./img/fundopg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#compre {
-    background-color: yellow;
+#odin {
+    background-image: url(./img/fundopg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
